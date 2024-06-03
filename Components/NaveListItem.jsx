@@ -13,9 +13,11 @@ const NaveListItem = () => {
         <ListItem className="hover:font-bold lg:text-white font-causten text-[15px] xl:text-common-black tracking-[1px] select-none font-medium duration-200 ">
           Men
         </ListItem>
-        <ListItem className="hover:font-boldk lg:text-white font-causten text-[15px] xl:text-common-black tracking-[1px] select-none font-medium duration-200 ">
-          <Link href='/whomen'>Women</Link>
-        </ListItem>
+        <Link href="/whomen">
+          <ListItem className="hover:font-boldk lg:text-white font-causten text-[15px] xl:text-common-black tracking-[1px] select-none font-medium duration-200 ">
+            Women
+          </ListItem>
+        </Link>
         <ListItem className="hover:font-bold lg:text-white font-causten text-[15px] xl:text-common-black tracking-[1px] select-none font-medium duration-200">
           Combos
         </ListItem>

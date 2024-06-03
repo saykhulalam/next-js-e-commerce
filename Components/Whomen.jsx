@@ -1,232 +1,307 @@
 "use client";
-import React, { useState } from "react";
 import Container from "./Container";
 import Flex from "./Flex";
-import { GiSettingsKnobs } from "react-icons/gi";
-import SidebarButton from "./SidebarButton";
-import List from "./List";
-import ListItem from "./ListItem";
-import { FaAngleRight } from "react-icons/fa6";
-import { FaAngleUp } from "react-icons/fa6";
-import { Slider } from "antd";
-import ColorPalet from "./ColorPalet";
+
+import LimelightCollection from "./LimelightCollection";
+import limelightImageTow from "../public/assates/LimelightImageTow.png";
+import Title from "./Title";
+import Sidebar from "./Sidebar";
 
 const Whomen = () => {
-  let [fillterShow, setFillterShow] = useState(false);
-  let [priceShow, setPriceShow] = useState(false);
-  let [colorShow, setColorShow] = useState(false);
-  let [sizeShow, setSizeShow] = useState(false);
-  let [styleShow, setStyleShow] = useState(false);
-
-  let handleFillterButton = () => {
-    setFillterShow(!fillterShow);
-  };
-
-  let handlePriceButton = () => {
-    setPriceShow(!priceShow);
-  };
-
-  let handleColorButton = () => {
-    setColorShow(!colorShow);
-  };
-
-  let handleSizeButton = () => {
-    setSizeShow(!sizeShow);
-  };
-
-  let handleStyleButton = () => {
-    setStyleShow(!styleShow);
-  };
-
   return (
-    <section className="">
+    <section>
       <Container>
         <Flex className=" xl:flex-row flex-col">
           <div className="xl:w-[23%]">
-            <div className=" select-noneborder-[1px] border-b-0">
-              <div onClick={handleFillterButton}>
-                <SidebarButton Icon={<GiSettingsKnobs />} ButtonName="Filter" />
-              </div>
-              {fillterShow && (
-                <List className="mt-[40px] px-[40px] py-[10px]">
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Tops
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Printed T-shirts
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Plain T-shirts
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Kurti
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Boxers
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Full sleeve T-shirts
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Joggers
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Payjamas
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Jeans
-                    <FaAngleRight />
-                  </ListItem>
-                </List>
-              )}
-            </div>
-            <div className=" select-none border-[1px] border-b-0">
-              <div onClick={handlePriceButton}>
-                <SidebarButton Icon={<FaAngleUp />} ButtonName="Price" />
-              </div>
-              {priceShow && (
-                <div className="px-[34px] pt-[35px] pb-[35px]">
-                  <Slider
-                    range={{
-                      draggableTrack: true,
-                    }}
-                    defaultValue={[20, 50]}
-                  />
-                  <div className="flex justify-between mt-[20px]">
-                    <div className="w-[97px] h-[32px] border-[1px] rounded-xl flex items-center justify-center">
-                      <h4 className="text-[#3C4242] text-[16px] font-causten font-medium">
-                        $70
-                      </h4>
-                    </div>
-                    <div className="w-[97px] h-[32px] border-[1px] rounded-xl flex items-center justify-center">
-                      <h4 className="text-[#3C4242] text-[16px] font-causten font-medium">
-                        $600
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-            <div className=" select-noneborder-[1px] border-b-0">
-              <div onClick={handleColorButton}>
-                <SidebarButton ButtonName="Colors" Icon={<FaAngleUp />} />
-              </div>
-              {colorShow && (
-                <Flex className=" flex-wrap gap-[18px] px-[38px] pt-[40px] pb-[40px]">
-                  <ColorPalet Color=" bg-purple-600" Name="Purple" />
-                  <ColorPalet Color="bg-black" Name="Black" />
-                  <ColorPalet Color="bg-red-500" Name="Red" />
-                  <ColorPalet Color="bg-orange-500" Name="Orange" />
-                  <ColorPalet Color="bg-sky-600" Name="Navy" />
-                  <ColorPalet Color="bg-white" Name="White" />
-                  <ColorPalet Color="bg-yellow-900" Name="Broom" />
-                  <ColorPalet Color="bg-green-500" Name="Green" />
-                  <ColorPalet Color="bg-yellow-400" Name="Yellow" />
-                  <ColorPalet Color="bg-gray-300" Name="Grey" />
-                  <ColorPalet Color="bg-pink-400" Name="Pink" />
-                  <ColorPalet Color="bg-blue-700" Name="Blue" />
-                </Flex>
-              )}
-            </div>
-            <div className=" select-none border-[1px] border-b-0">
-              <div onClick={handleSizeButton}>
-                <SidebarButton ButtonName="Size" Icon={<FaAngleUp />} />
-              </div>
-              {sizeShow && (
-                <Flex className=" flex-wrap justify-between px-[36px] pb-[40px] pt-[30px]">
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      XXS
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      XL
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      XS
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      S
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      M
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      L
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      XXL
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      3XL
-                    </h4>
-                  </div>
-                  <div className=" mt-[18px] w-[61px] h-[32px] rounded-[8px] border-[2px] flex items-center justify-center">
-                    <h4 className=" font-causten font-semibold text-[14px] text-[#3C4242]">
-                      4XL
-                    </h4>
-                  </div>
-                </Flex>
-              )}
-            </div>
-            <div className=" select-none border-[1px]">
-              <div onClick={handleStyleButton}>
-                <SidebarButton ButtonName="Dress Style" Icon={<FaAngleUp />} />
-              </div>
-              {styleShow && (
-                <List className=" px-[40px] py-[40px]">
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Classic
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Casual
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Business
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Sport
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Elegant
-                    <FaAngleRight />
-                  </ListItem>
-                  <ListItem className="text-[#8A8989] tracking-[1px] flex items-center justify-between mb-[18px] font-causten font-semibold">
-                    Formal (evening)
-                    <FaAngleRight />
-                  </ListItem>
-                </List>
-              )}
-            </div>
+            <Sidebar />
           </div>
-
-          <div className="xl:w-[77%] bg-red-500 h-[500px]"></div>
+          <div className="xl:w-[77%] pl-[50px]">
+            <Flex className=" justify-between mb-[50px]">
+              <h2 className="text-[22px] font-causten font-semibold text-[#3F4646]">
+                Women’s Clothing
+              </h2>
+              <Flex className=" gap-[25px]">
+                <h3 className="text-[22px] font-causten font-semibold text-[#8A33FD]">
+                  New
+                </h3>
+                <h3 className="text-[22px] font-causten font-semibold text-[#3F4646]">
+                  Recommended
+                </h3>
+              </Flex>
+            </Flex>
+            <Flex className=" flex-wrap justify-between">
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+              <LimelightCollection
+                ImageUrl={limelightImageTow}
+                Name="line Pattern Black H..."
+                BrandName="AS’s  Brand"
+                Prize="$37.00"
+              />
+            </Flex>
+          </div>
         </Flex>
+        <div className=" mt-[100px]">
+          <Title Name="Clothing for Women Online in India" />
+          <div className="">
+            <h3 className=" text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px] mb-[25px] mt-[30px]">
+              Reexplore Women's Clothing Collection Online at Euphoria
+            </h3>
+            <p className=" text-[20px] font-causten font-normal text-[#807D7E] leading-[33px]">
+              Women's Clothing – Are you searching for the best website to buy
+              Clothing for Women online in India? Well, your search for the
+              coolest and most stylish womens clothing ends here. From trendy
+              Casual Womens Wear Online shopping to premium quality cotton
+              women's apparel,{" "}
+              <span className="text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px]">
+                Euphoria
+              </span>{" "}
+              has closet of Women Collection covered with the latest and best
+              designs of Women's Clothing Online. <br /> <br />
+              Our collection of clothes for women will make you the trendsetter
+              with an iconic resemblance of choice in Womens Wear.{" "}
+            </p>
+            <h3 className=" text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px] mb-[25px] mt-[30px]">
+              One-Stop Destination to Shop Every Clothing for Women: Euphoria
+            </h3>
+            <p className=" text-[20px] font-causten font-normal text-[#807D7E] leading-[33px]">
+              Today, Clothing for Women is gaining more popularity above all.
+              This is because gone are the days when women were used to carrying
+              uncomfortable fashion. Today, a lady looks prettier when she is in
+              Casual Womens Wear which is a comfortable outfit. Concerning this,{" "}
+              <span className="text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px]">
+                Euphoria
+              </span>{" "}
+              has a big fat range of Stylish Women's Clothing that would make
+              her the winner wherever she goes. <br /> <br />
+              Our collection of clothes for women will make you the trendsetter
+              with an iconic resemblance of choice in Womens Wear. It is quite
+              evident to say that there are very few Womens Clothing online
+              stores where you can buy Western Wear for Women comprising the
+              premium material and elegant design that you are always seeking
+              for. Basically,{" "}
+            </p>
+          </div>
+          <button className="text-[#807D7E] font-coresance tracking-[1px] font-bold text-[25px] mt-[20px]">
+            See More
+          </button>
+        </div>
+        <div className=" mt-[100px]">
+          <Title Name="Buy Women's Clothing at Best Price" />
+
+          <div className="relative overflow-x-auto mt-[50px] mb-[100px] rounded-b-xl">
+            <table className="w-full text-[24px] font-causten text-left rtl:text-right text-gray-500 dark:text-gray-400 ">
+              <thead className="text-xs h-[134px]  text-[#F6F6F6] uppercase  bg-[#807D7E]">
+                <tr>
+                  <th
+                    scope="col"
+                    className="px-6 py-3 text-[24px] font-bold font-coresance rounded-s-lg"
+                  >
+                    Women's Clothing
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-6 py-3 text-[24px] font-bold font-coresance"
+                  >
+                    Qty
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-6 py-3 text-[24px] font-bold font-coresance rounded-e-lg"
+                  >
+                    Best Price
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Pick Any 4- Womens Plain T-shirt Combo
+                  </th>
+                  <td className="px-6 py-4">1</td>
+                  <td className="px-6 py-4">₹1099</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Pick Any 4- Plain Womens Boxer Combo
+                  </th>
+                  <td className="px-6 py-4">3</td>
+                  <td className="px-6 py-4">₹1099</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Pick Any 4 - Women Plain Full Sleeve T-shirt Combo
+                  </th>
+                  <td className="px-6 py-4">1</td>
+                  <td className="px-6 py-4">₹1399</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Multicolor Checkered Long Casual Shirts for Women
+                  </th>
+                  <td className="px-6 py-4">7</td>
+                  <td className="px-6 py-4">$249</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Pick Any 2: Plain Boxy Casual Shirts for Women Combo
+                  </th>
+                  <td className="px-6 py-4">11</td>
+                  <td className="px-6 py-4">$799</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Blue Floral Anarkali Kurti
+                  </th>
+                  <td className="px-6 py-4">1</td>
+                  <td className="px-6 py-4">$599</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Jade Black Narrow Cut Flexible Women Jeggings
+                  </th>
+                  <td className="px-6 py-4">14</td>
+                  <td className="px-6 py-4">$499</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Mustard-yellow Solid Straight-Fit Women Pant
+                  </th>
+                  <td className="px-6 py-4">6</td>
+                  <td className="px-6 py-4">$899</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Women Pants Combo - Pick Any 2
+                  </th>
+                  <td className="px-6 py-4">1</td>
+                  <td className="px-6 py-4">$800</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Pista Green Solid Boxy Casual Shirts for Women
+                  </th>
+                  <td className="px-6 py-4">1</td>
+                  <td className="px-6 py-4">$399</td>
+                </tr>
+                <tr className="bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Plain Burgundy Womens Boxer
+                  </th>
+                  <td className="px-6 py-4">1</td>
+                  <td className="px-6 py-4">436</td>
+                </tr>
+                <tr className=" bg-[#F6F6F6] text-common-black">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 font-normal text-common-black whitespace-nowrap"
+                  >
+                    Striped Front Tie Casual Shirts for Women
+                  </th>
+                  <td className="px-6 py-4">9</td>
+                  <td className="px-6 py-4">$449</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </Container>
     </section>
   );

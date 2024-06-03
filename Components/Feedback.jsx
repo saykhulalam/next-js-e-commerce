@@ -19,6 +19,7 @@ const Feedback = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    arrows: false,
     appendDots: (dots) => (
       <div style={{}}>
         <ul
@@ -84,7 +85,7 @@ const Feedback = () => {
     ],
   };
   return (
-    <section className="bg-white pt-[100px] pb-[120px]">
+    <section className="bg-white pt-[50px] pb-[120px]">
       <Container>
         <Title Name="Feedback" className=" mb-[70px]" />
         <Slider {...settings}>
