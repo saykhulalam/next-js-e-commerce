@@ -29,6 +29,7 @@ const Feedback = () => {
             gap: "5px",
             position: "absolute",
             left: "50%",
+            marginTop:"20px",
           }}
         >
           {" "}
@@ -42,7 +43,6 @@ const Feedback = () => {
           width: "8px",
           height: "8px",
           borderRadius: "50%",
-
           background: "#3C4242",
         }}
       >
