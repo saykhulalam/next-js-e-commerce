@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import Flex from "./Flex";
 import { FaRegHeart } from "react-icons/fa";
+import Image from "next/image";
 
 const LimelightCollection = ({ ImageUrl, Name, BrandName, Prize }) => {
   return (
@@ -9,7 +9,7 @@ const LimelightCollection = ({ ImageUrl, Name, BrandName, Prize }) => {
       <div className=" relative">
         <Image src={ImageUrl} />
         <div className="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center absolute right-3 top-5">
-        <FaRegHeart className="text-[15px] text-common-black" />
+          <FaRegHeart className="text-[15px] text-common-black" />
         </div>
       </div>
       <Flex className=" justify-between items-center mt-[30px]">

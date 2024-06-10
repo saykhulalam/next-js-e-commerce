@@ -18,7 +18,7 @@ const MenPage = () => {
           <div className="xl:w-[77%] xl:pl-[50px]">
             <Flex className=" justify-between mb-[50px] xl:flex-row flex-col  mt-10">
               <h2 className="text-[22px] font-causten font-semibold text-[#3F4646]">
-                Women’s Clothing
+                Men Clothing
               </h2>
               <Flex className=" gap-[25px]">
                 <h3 className="text-[22px] font-causten font-semibold text-[#8A33FD]">
