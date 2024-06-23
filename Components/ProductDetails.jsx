@@ -1,0 +1,115 @@
+"use client";
+import React from "react";
+import Container from "./Container";
+import Flex from "./Flex";
+import Image from "next/image";
+import Slider from "react-slick";
+import detilsOne from "../public/assates/detalisOne.png";
+import detilsTow from "../public/assates/detilsTow.png";
+import detilsThree from "../public/assates/detalisThree.png";
+import { FaAngleUp } from "react-icons/fa6";
+import { FaAngleDown } from "react-icons/fa6";
+import detilsBig from "../public/assates/detailsBig.png";
+import "slick-carousel/slick/slick.css";
+import { Rate } from 'antd';
+
+const ProductDetails = () => {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          background: "#3C4242",
+          width: "21px",
+          height: "21px",
+          borderRadius: "50%",
+          display: "flex",
+          alignItems: "center",
+          justifyItems: "center",
+          color: "white",
+          paddingLeft: "2px",
+          position: "absolute",
+          bottom: "-30px",
+          left: "25px",
+        }}
+        onClick={onClick}
+      >
+        <FaAngleUp />{" "}
+      </div>
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          background: "#3C4242",
+          width: "21px",
+          height: "21px",
+          borderRadius: "50%",
+          display: "flex",
+          alignItems: "center",
+          justifyItems: "center",
+          color: "white",
+          paddingLeft: "2px",
+          position: "absolute",
+          bottom: "-70px",
+          left: "25px",
+        }}
+        onClick={onClick}
+      >
+        <FaAngleDown />
+      </div>
+    );
+  }
+
+  const sliderSettings = {
+    vertical: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+  };
+
+  return (
+    <section>
+      <Container>
+        <Flex className="items-center">
+          <div className="w-[10%]">
+            <Slider {...sliderSettings}>
+              <div>
+                <Image width={68} height={68} src={detilsOne} alt="Detail One" />
+              </div>
+              <div>
+                <Image width={68} height={68}  src={detilsTow} alt="Detail Two" />
+              </div>
+              <div>
+                <Image width={68} height={68}  src={detilsThree} alt="Detail Three" />
+              </div>
+            </Slider>
+          </div>
+          <div className="w-[45%]">
+            <Image src={detilsBig} alt="Detail Big" />
+          </div>
+          <div className="w-[45%]">
+            <h2 className="text-[34px] font-coresance font-bold ">Raven Hoodie With <br /> 
+            Black colored Design</h2>
+            <div className="">
+            <Rate allowHalf defaultValue={3.5} />
+            </div>
+          </div>
+        </Flex>
+      </Container>
+    </section>
+  );
+};
+
+export default ProductDetails;

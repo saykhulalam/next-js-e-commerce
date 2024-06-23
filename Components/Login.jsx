@@ -18,15 +18,15 @@ const Login = () => {
   };
 
   return (
-    <section>
+    <section className="pb-10">
       <Container>
-        <Flex className="gap-14">
-          <div className="w-[50%]">
+        <Flex className="gap-14 xl:flex-row flex-col">
+          <div className="xl:w-[50%]">
             <Image src={LoginImage} />
           </div>
-          <div className="w-[50%] pr-8">
-            <div className="flex justify-between">
-              <h2 className="text-[30px] font-coresance font-bold text-common-black">
+          <div className="xl:w-[50%] pr-8">
+            <div className="flex justify-between xl:flex-row flex-col">
+              <h2 className="text-[30px] font-coresance font-bold text-common-black mb-5 xl:m-0">
                 Sign In Page
               </h2>
               <div className="flex gap-5">
@@ -42,13 +42,13 @@ const Login = () => {
               </div>
             </div>
             <div className="mt-[50px]">
-              <div className="w-[567px] h-[58px] border-[1px] border-common-black rounded-[8px] flex items-center justify-center gap-[12px]">
+              <div className="xl:w-[567px] sm:w-[567px] h-[58px] border-[1px] border-common-black rounded-[8px] flex items-center justify-center gap-[12px]">
                 <FcGoogle className="text-[20px]" />
                 <h2 className="text-[22px] font-causten font-medium text-[#8A33FD]">
                   Continue With Google
                 </h2>
               </div>
-              <div className="w-[567px] h-[58px] border-[1px] border-common-black rounded-[8px] flex items-center justify-center gap-[12px] mt-[20px]">
+              <div className="xl:w-[567px] sm:w-[567px] h-[58px] border-[1px] border-common-black rounded-[8px] flex items-center justify-center gap-[12px] mt-[20px]">
                 <IoLogoTwitter className="text-[20px] text-[#47ACDF]" />
                 <h2 className="text-[22px] font-causten font-medium text-[#8A33FD]">
                   Continue With Twitter
@@ -68,12 +68,12 @@ const Login = () => {
                   User name or email address
                 </h5>
                 <input
-                  className="w-[567px] h-[58px] border-common-black border-[1px] rounded-[8px] text-[20px] pl-5 mt-[10px]"
+                  className="xl:w-[567px] sm:w-[567px] h-[58px] border-common-black border-[1px] rounded-[8px] text-[20px] pl-5 mt-[10px]"
                   type="email"
                 />
               </div>
               <div className="mt-[30px]">
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between w-[280px] sm:w-[567px] items-center">
                   <h5 className="text-[18px] font-causten text-common-black font-normal">
                     Password
                   </h5>
@@ -94,11 +94,11 @@ const Login = () => {
                   </div>
                 </div>
                 <input
-                  className="w-[567px] h-[58px] border-common-black border-[1px] rounded-[8px] text-[20px] pl-5 mt-[10px]"
+                  className="xl:w-[567px] sm:w-[567px] h-[58px] border-common-black border-[1px] rounded-[8px] text-[20px] pl-5 mt-[10px]"
                   type={passwordVisible ? "text" : "password"}
                 />
                 <Link
-                  className="text-[18px] font-causten text-common-black font-normal underline flex justify-end mt-[10px]"
+                  className="text-[18px] font-causten text-common-black font-normal underline flex xl:justify-end mt-[10px] "
                   href="#"
                 >
                   Forget your password
