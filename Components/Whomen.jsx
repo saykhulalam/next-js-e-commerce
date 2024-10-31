@@ -37,7 +37,7 @@ const Whomen = () => {
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
-                Name="line Pattern Black H..."
+                Name="line Pattern Black H.."
                 BrandName="ASs  Brand"
                 Prize="$37.00"
               />
