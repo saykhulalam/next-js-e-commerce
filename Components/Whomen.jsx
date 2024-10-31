@@ -1,8 +1,7 @@
 "use client";
 import Container from "./Container";
 import Flex from "./Flex";
-import LimelightCollection from "./LimelightCollection";
-import limelightImageTow from "../public/assates/LimelightImageTow.png";
+import WhomenOne from "./LimelightCollection";
 import Title from "./Title";
 import Sidebar from "./Sidebar";
 
@@ -30,73 +29,73 @@ const Whomen = () => {
             </Flex>
             <Flex className=" flex-wrap justify-between">
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={limelightImageTow}
+                ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"

@@ -9,8 +9,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
 import { FaLinkedinIn } from "react-icons/fa";
-import companiLogoOne from "../public/assates/companiOne.png";
-import companiLogoTow from "../public/assates/companoTow.png";
+import cmpanilogoOne from "../public/assets/companiOne.png";
+import cmpanilogoTow from "../public/assets/companoTow.png";
 import Image from "next/image";
 import { FaChevronDown } from "react-icons/fa";
 
@@ -112,10 +112,10 @@ const Footer = () => {
             <Footerhading Name="Download The App " />
             <div className="flex gap-[21px] mt-[19px]">
               <Link href="#">
-                <Image src={companiLogoOne} />
+                <Image src={cmpanilogoOne} />
               </Link>
               <Link href="#">
-                <Image src={companiLogoTow} />
+                <Image src={cmpanilogoTow} />
               </Link>
             </div>
           </div>

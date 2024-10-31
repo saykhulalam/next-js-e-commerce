@@ -4,12 +4,12 @@ import Container from "./Container";
 import Flex from "./Flex";
 import Image from "next/image";
 import Slider from "react-slick";
-import detilsOne from "../public/assates/detalisOne.png";
-import detilsTow from "../public/assates/detilsTow.png";
-import detilsThree from "../public/assates/detalisThree.png";
+import DetilsOne from "../public/assets/detalisOne.png";
+import DetilsTow from "../public/assets/detilsTow.png";
+import DetilsThree from "../public/assets/detalisThree.png";
 import { FaAngleUp } from "react-icons/fa6";
 import { FaAngleDown } from "react-icons/fa6";
-import detilsBig from "../public/assates/detailsBig.png";
+import DetilsBig from "../public/assets/detailsBig.png";
 import "slick-carousel/slick/slick.css";
 import { Rate } from 'antd';
 
@@ -86,18 +86,18 @@ const ProductDetails = () => {
           <div className="w-[10%]">
             <Slider {...sliderSettings}>
               <div>
-                <Image width={68} height={68} src={detilsOne} alt="Detail One" />
+                <Image width={68} height={68} src={DetilsOne} alt="Detail One" />
               </div>
               <div>
-                <Image width={68} height={68}  src={detilsTow} alt="Detail Two" />
+                <Image width={68} height={68}  src={DetilsTow} alt="Detail Two" />
               </div>
               <div>
-                <Image width={68} height={68}  src={detilsThree} alt="Detail Three" />
+                <Image width={68} height={68}  src={DetilsThree} alt="Detail Three" />
               </div>
             </Slider>
           </div>
           <div className="w-[45%]">
-            <Image src={detilsBig} alt="Detail Big" />
+            <Image src={DetilsBig} alt="Detail Big" />
           </div>
           <div className="w-[45%]">
             <h2 className="text-[34px] font-coresance font-bold ">Raven Hoodie With <br /> 

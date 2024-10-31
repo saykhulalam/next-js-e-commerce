@@ -3,7 +3,7 @@ import React from "react";
 import Container from "./Container";
 import Flex from "./Flex";
 import Sidebar from "./Sidebar";
-import menImgThree from "../public/assates/menThree.png";
+import MenimgThree from "../public/assets/menThree.png";
 import LimelightCollection from "./LimelightCollection";
 import Title from "./Title";
 
@@ -32,73 +32,73 @@ const MenPage = () => {
 
             <Flex className=" flex-wrap justify-between">
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
               <LimelightCollection
-                ImageUrl={menImgThree}
+                ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"

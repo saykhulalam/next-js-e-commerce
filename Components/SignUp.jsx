@@ -3,7 +3,7 @@ import React from "react";
 import Container from "./Container";
 import Flex from "./Flex";
 import Image from "next/image";
-import SignUpImage from "../public/assates/signUp.png";
+import SignupImage from "../public/assets/signUp.png";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FcGoogle } from "react-icons/fc";
 import { FaEyeSlash } from "react-icons/fa";
@@ -23,7 +23,7 @@ const SignUp = () => {
       <Container>
         <Flex className="gap-14 xl:flex-row flex-col">
           <div className="xl:w-[50%]">
-            <Image src={SignUpImage} />
+            <Image alt="image" src={SignupImage} />
           </div>
           <div className="xl:w-[50%] pr-8">
             <div className="flex justify-between xl:flex-row flex-col">
