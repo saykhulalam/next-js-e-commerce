@@ -3,7 +3,7 @@ import BigSavingZone from "@/Components/BigSavingZone";
 import CategoriesForMen from "@/Components/CategoriesForMen";
 import CategoriesForWomen from "@/Components/CategoriesForWomen";
 import Feedback from "@/Components/Feedback";
-import InTheLimelight from "@/Components/InTheLimelight";
+import IntheLimelight from "@/Components/IntheLimelight";
 import NewArrival from "@/Components/NewArrival";
 import TopBrandsDeal from "@/Components/TopBrandsDeal";
 
@@ -16,7 +16,7 @@ export default function Home() {
       <CategoriesForMen/>
       <CategoriesForWomen/>
       <TopBrandsDeal/>
-      <InTheLimelight/>
+      <IntheLimelight/>
       <Feedback/>
     </main>
   );
