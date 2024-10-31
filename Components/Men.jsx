@@ -108,19 +108,19 @@ const MenPage = () => {
               <Title Name="Clothing for Men Online in India" />
               <div className="">
                 <h3 className=" text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px] mb-[25px] mt-[30px]">
-                  Reexplore Women's Clothing Collection Online at Euphoria
+                  Reexplore Women&apos;s Clothing Collection Online at Euphoria
                 </h3>
                 <p className=" text-[20px] font-causten font-normal text-[#807D7E] leading-[33px]">
-                  Women's Clothing  Are you searching for the best website to
+                  Women&apos;s Clothing  Are you searching for the best website to
                   buy Clothing for Women online in India? Well, your search for
                   the coolest and most stylish womens clothing ends here. From
                   trendy Casual Womens Wear Online shopping to premium quality
-                  cotton women's apparel,{" "}
+                  cotton women&apos;s apparel,{" "}
                   <span className="text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px]">
                     Euphoria
                   </span>{" "}
                   has closet of Women Collection covered with the latest and
-                  best designs of Women's Clothing Online. <br /> <br />
+                  best designs of Women&apos;s Clothing Online. <br /> <br />
                   Our collection of clothes for women will make you the
                   trendsetter with an iconic resemblance of choice in Womens
                   Wear.{" "}
@@ -138,7 +138,7 @@ const MenPage = () => {
                   <span className="text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px]">
                     Euphoria
                   </span>{" "}
-                  has a big fat range of Stylish Women's Clothing that would
+                  has a big fat range of Stylish Women&apos;s Clothing that would
                   make her the winner wherever she goes. <br /> <br />
                   Our collection of clothes for women will make you the
                   trendsetter with an iconic resemblance of choice in Womens

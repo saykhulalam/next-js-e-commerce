@@ -17,7 +17,7 @@ const Whomen = () => {
           <div className="xl:w-[77%] xl:pl-[50px]">
             <Flex className=" justify-between mb-[50px] xl:flex-row flex-col  mt-10">
               <h2 className="text-[22px] font-causten font-semibold text-[#3F4646]">
-                Women,s Clothing
+                Women&apos;s Clothing
               </h2>
               <Flex className=" gap-[25px]">
                 <h3 className="text-[22px] font-causten font-semibold text-[#8A33FD]">
@@ -108,19 +108,19 @@ const Whomen = () => {
           <Title Name="Clothing for Women Online in India" />
           <div className="">
             <h3 className=" text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px] mb-[25px] mt-[30px]">
-              Reexplore Women's Clothing Collection Online at Euphoria
+              Reexplore Women&apos;s Clothing Collection Online at Euphoria
             </h3>
             <p className=" text-[20px] font-causten font-normal text-[#807D7E] leading-[33px]">
-              Women's Clothing  Are you searching for the best website to buy
+              Women&apos;s Clothing  Are you searching for the best website to buy
               Clothing for Women online in India? Well, your search for the
               coolest and most stylish womens clothing ends here. From trendy
               Casual Womens Wear Online shopping to premium quality cotton
-              women's apparel,{" "}
+              women&apos;s apparel,{" "}
               <span className="text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px]">
                 Euphoria
               </span>{" "}
               has closet of Women Collection covered with the latest and best
-              designs of Women's Clothing Online. <br /> <br />
+              designs of Women&apos;s Clothing Online. <br /> <br />
               Our collection of clothes for women will make you the trendsetter
               with an iconic resemblance of choice in Womens Wear.{" "}
             </p>
@@ -135,7 +135,7 @@ const Whomen = () => {
               <span className="text-[#807D7E] font-coresance tracking-[1px] font-bold text-[20px]">
                 Euphoria
               </span>{" "}
-              has a big fat range of Stylish Women's Clothing that would make
+              has a big fat range of Stylish Women&apos;s Clothing that would make
               her the winner wherever she goes. <br /> <br />
               Our collection of clothes for women will make you the trendsetter
               with an iconic resemblance of choice in Womens Wear. It is quite
@@ -150,7 +150,7 @@ const Whomen = () => {
           </button>
         </div>
         <div className=" xl:mt-[100px] mt-10">
-          <Title Name="Buy Women's Clothing at Best Price" />
+          <Title Name="Buy Women&apos;s Clothing at Best Price" />
 
           <div className="relative overflow-x-auto mt-[100px] mb-[100px] rounded-b-xl">
             <table className="min-w-full text-[10px] xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-causten text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -160,7 +160,7 @@ const Whomen = () => {
                     scope="col"
                     className="px-2 py-3 xs:px-4 md:px-6 text-[10px] xs:text-[20px] md:text-[24px] font-bold font-coresance rounded-s-lg"
                   >
-                    Women's Clothing
+                    Women&apos;s Clothing
                   </th>
                   <th
                     scope="col"
