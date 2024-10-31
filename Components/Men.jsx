@@ -34,73 +34,73 @@ const MenPage = () => {
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
             </Flex>
@@ -111,7 +111,7 @@ const MenPage = () => {
                   Reexplore Women's Clothing Collection Online at Euphoria
                 </h3>
                 <p className=" text-[20px] font-causten font-normal text-[#807D7E] leading-[33px]">
-                  Women's Clothing – Are you searching for the best website to
+                  Women's Clothing  Are you searching for the best website to
                   buy Clothing for Women online in India? Well, your search for
                   the coolest and most stylish womens clothing ends here. From
                   trendy Casual Womens Wear Online shopping to premium quality

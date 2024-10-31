@@ -17,7 +17,7 @@ const Whomen = () => {
           <div className="xl:w-[77%] xl:pl-[50px]">
             <Flex className=" justify-between mb-[50px] xl:flex-row flex-col  mt-10">
               <h2 className="text-[22px] font-causten font-semibold text-[#3F4646]">
-                Women’s Clothing
+                Women,s Clothing
               </h2>
               <Flex className=" gap-[25px]">
                 <h3 className="text-[22px] font-causten font-semibold text-[#8A33FD]">
@@ -32,73 +32,73 @@ const Whomen = () => {
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
               <LimelightCollct
                 ImageUrl={WhomenOne}
                 Name="line Pattern Black H..."
-                BrandName="AS’s  Brand"
+                BrandName="ASs  Brand"
                 Prize="$37.00"
               />
             </Flex>
@@ -111,7 +111,7 @@ const Whomen = () => {
               Reexplore Women's Clothing Collection Online at Euphoria
             </h3>
             <p className=" text-[20px] font-causten font-normal text-[#807D7E] leading-[33px]">
-              Women's Clothing – Are you searching for the best website to buy
+              Women's Clothing  Are you searching for the best website to buy
               Clothing for Women online in India? Well, your search for the
               coolest and most stylish womens clothing ends here. From trendy
               Casual Womens Wear Online shopping to premium quality cotton

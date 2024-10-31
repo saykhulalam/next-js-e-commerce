@@ -29,10 +29,10 @@ const Footer = () => {
                 <Link href="#">Track Order</Link>
               </ListItem>
               <ListItem className="text-[18px] font-causten font-medium text-footer-whait mb-[15px]">
-                <Link href="#">Returns & Refunds</Link>
+                <Link href="#">Returns &amp; Refunds</Link>
               </ListItem>
               <ListItem className="text-[18px] font-causten font-medium text-footer-whait mb-[15px]">
-                <Link href="#">FAQ's</Link>
+                <Link href="#">FAQ&apos;s</Link>
               </ListItem>
               <ListItem className="text-[18px] font-causten font-medium text-footer-whait mb-[15px]">
                 <Link href="#">Career</Link>
@@ -112,10 +112,10 @@ const Footer = () => {
             <Footerhading Name="Download The App " />
             <div className="flex gap-[21px] mt-[19px]">
               <Link href="#">
-                <Image src={cmpanilogoOne} />
+                <Image alt="Download on Company Logo One" src={cmpanilogoOne} />
               </Link>
               <Link href="#">
-                <Image src={cmpanilogoTow} />
+                <Image alt="Download on Company Logo Two" src={cmpanilogoTow} />
               </Link>
             </div>
           </div>
