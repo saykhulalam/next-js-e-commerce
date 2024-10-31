@@ -3,12 +3,12 @@ import Container from "./Container";
 import Title from "./Title";
 import Flex from "./Flex";
 import Image from "next/image";
-import savingImgOne from "../public/assates/savingImgOne.png";
-import savingImgTow from "../public/assates/savingImgTow.png";
-import savingImgThree from "../public/assates/savingImgThree.png";
-import savingImgFour from "../public/assates/savingImgFour.png";
-import savingImgFive from "../public/assates/savingImgFive.png";
-import savingImgSix from "../public/assates/MeddileBanner.png";
+import savingImgOne from "../public/assets/savingImgOne.png";
+import savingImgTow from "../public/assets/savingImgTow.png";
+import savingImgThree from "../public/assets/savingImgThree.png";
+import savingImgFour from "../public/assets/savingImgFour.png";
+import savingImgFive from "../public/assets/savingImgFive.png";
+import savingImgSix from "../public/assets/MeddileBanner.png";
 
 const BigSavingZone = () => {
   return (
@@ -26,7 +26,7 @@ const BigSavingZone = () => {
             <Image alt="image" src={savingImgThree} />
           </div>
         </Flex>
-        <Flex className=" gap-4 mt-[15px] lg:flex-row flex-col gap-3 sm:flex-row">
+        <Flex className=" mt-[15px] lg:flex-row flex-col gap-3 sm:flex-row">
           <div>
             <Image alt="image" src={savingImgFour} />
           </div>

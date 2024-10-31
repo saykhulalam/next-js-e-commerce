@@ -2,10 +2,10 @@
 import React from "react";
 import Container from "./Container";
 import Image from "next/image";
-import bannerImage from "../public/assates/bannerImage.png";
+import bannerImage from "../public/assets/bannerImage.png";
 import Flex from "./Flex";
-import bannerDawonImageOne from "../public/assates/bannerDownOne.png";
-import bannerDawonImageTow from "../public/assates/bannerDownTow.png";
+import bannerDawonImageOne from "../public/assets/bannerDownOne.png";
+import bannerDawonImageTow from "../public/assets/bannerDownTow.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import { GrPrevious } from "react-icons/gr";

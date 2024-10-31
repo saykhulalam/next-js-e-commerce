@@ -3,9 +3,9 @@ import React from "react";
 import Container from "./Container";
 import Title from "./Title";
 import FeedbackCard from "./FeedbackCard";
-import FeedbackImgOne from "../public/assates/feedbbackImageOne.png";
-import FeedbackImgTow from "../public/assates/feedbbackImageTow.png";
-import FeedbackImgThree from "../public/assates/feedbbackImageThree.png";
+import FeedbackImgOne from "../public/assets/feedbbackImageOne.png";
+import FeedbackImgTow from "../public/assets/feedbbackImageTow.png";
+import FeedbackImgThree from "../public/assets/feedbbackImageThree.png";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import "../app/feedback.css";
@@ -29,7 +29,7 @@ const Feedback = () => {
             gap: "5px",
             position: "absolute",
             left: "50%",
-            marginTop:"20px",
+            marginTop: "20px",
           }}
         >
           {" "}

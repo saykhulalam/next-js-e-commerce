@@ -2,10 +2,10 @@ import React from "react";
 import Container from "./Container";
 import Title from "./Title";
 import LimelightCollection from "./LimelightCollection";
-import limelightImageOne from "../public/assates/LimelightImageOne.png";
-import limelightImageTow from "../public/assates/LimelightImageTow.png";
-import limelightImageThree from "../public/assates/LimelightImageThree.png";
-import limelightImageFour from "../public/assates/LimelightImageFour.png";
+import limelightImageOne from "../public/assets/LimelightImageOne.png";
+import limelightImageTow from "../public/assets/LimelightImageTow.png";
+import limelightImageThree from "../public/assets/LimelightImageThree.png";
+import limelightImageFour from "../public/assets/LimelightImageFour.png";
 import Flex from "./Flex";
 const InTheLimelight = () => {
   return (

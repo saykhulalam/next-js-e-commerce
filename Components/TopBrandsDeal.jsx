@@ -3,11 +3,11 @@ import Container from './Container'
 import Flex from './Flex'
 import Link from 'next/link'
 import Image from 'next/image'
-import brandImageOne from '../public/assates/brandOne.png'
-import brandImageTow from '../public/assates/brandTow.png'
-import brandImageThree from '../public/assates/brandThree.png'
-import brandImageFour from '../public/assates/brandFour.png'
-import brandImageFive from '../public/assates/brandFive.png'
+import brandImageOne from '../public/assets/brandOne.png'
+import brandImageTow from '../public/assets/brandTow.png'
+import brandImageThree from '../public/assets/brandThree.png'
+import brandImageFour from '../public/assets/brandFour.png'
+import brandImageFive from '../public/assets/brandFive.png'
 
 const TopBrandsDeal = () => {
   return (
