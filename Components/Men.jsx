@@ -4,8 +4,8 @@ import Container from "./Container";
 import Flex from "./Flex";
 import Sidebar from "./Sidebar";
 import MenimgThree from "../public/assets/menThree.png";
-import LimelightCollection from "./LimelightCollection";
 import Title from "./Title";
+import LimelightCollct from "./LimelightCollct";
 
 const MenPage = () => {
   return (
@@ -31,73 +31,73 @@ const MenPage = () => {
             </Flex>
 
             <Flex className=" flex-wrap justify-between">
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
                 Prize="$37.00"
               />
-              <LimelightCollection
+              <LimelightCollct
                 ImageUrl={MenimgThree}
                 Name="line Pattern Black H..."
                 BrandName="AS’s  Brand"
