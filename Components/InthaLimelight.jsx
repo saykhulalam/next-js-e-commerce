@@ -7,7 +7,9 @@ import limelightImageTow from "../public/assets/LimelightImageTow.png";
 import limelightImageThree from "../public/assets/LimelightImageThree.png";
 import limelightImageFour from "../public/assets/LimelightImageFour.png";
 import Flex from "./Flex";
-const IntheLimelight = () => {
+
+
+const InthaLimelight = () => {
   return (
     <section className="bg-white pt-[76px]">
       <Container>
@@ -40,7 +42,7 @@ const IntheLimelight = () => {
         </Flex>
       </Container>
     </section>
-  );
-};
+  )
+}
 
-export default IntheLimelight;
+export default InthaLimelight
