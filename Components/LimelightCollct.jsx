@@ -3,7 +3,7 @@ import Flex from "./Flex";
 import { FaRegHeart } from "react-icons/fa";
 import Image from "next/image";
 
-const LimelightCollection = ({ ImageUrl, Name, BrandName, Prize }) => {
+const LimelightCollct = ({ImageUrl, Name, BrandName, Prize}) => {
   return (
     <div className="w-[282px] mb-[50px]">
       <div className=" relative">
@@ -28,7 +28,7 @@ const LimelightCollection = ({ ImageUrl, Name, BrandName, Prize }) => {
         </div>
       </Flex>
     </div>
-  );
-};
+  )
+}
 
-export default LimelightCollection;
+export default LimelightCollct
