@@ -3,12 +3,12 @@ import Container from "./Container";
 import Title from "./Title";
 import Flex from "./Flex";
 import Image from "next/image";
-import savingImgOne from "../public/assets/savingImgOne.png";
-import savingImgTow from "../public/assets/savingImgTow.png";
-import savingImgThree from "../public/assets/savingImgThree.png";
-import savingImgFour from "../public/assets/savingImgFour.png";
-import savingImgFive from "../public/assets/savingImgFive.png";
-import savingImgSix from "../public/assets/MeddileBanner.png";
+import SavingimgOne from "../public/assets/savingImgOne.png";
+import SavingimgTow from "../public/assets/savingImgTow.png";
+import SavingimgThree from "../public/assets/savingImgThree.png";
+import SavingimgFour from "../public/assets/savingImgFour.png";
+import SavingimgFive from "../public/assets/savingImgFive.png";
+import SavingimgSix from "../public/assets/meddileBanner.png";
 
 const BigSavingZone = () => {
   return (
@@ -17,25 +17,25 @@ const BigSavingZone = () => {
         <Title Name="Big Saving Zone" />
         <Flex className=" justify-between mt-[70px] sm:flex-row lg:flex-row flex-col gap-3">
           <div>
-            <Image alt="image" src={savingImgOne} />
+            <Image alt="image" src={SavingimgOne} />
           </div>
           <div>
-            <Image alt="image" src={savingImgTow} />
+            <Image alt="image" src={SavingimgTow} />
           </div>
           <div>
-            <Image alt="image" src={savingImgThree} />
+            <Image alt="image" src={SavingimgThree} />
           </div>
         </Flex>
         <Flex className=" mt-[15px] lg:flex-row flex-col gap-3 sm:flex-row">
           <div>
-            <Image alt="image" src={savingImgFour} />
+            <Image alt="image" src={SavingimgFour} />
           </div>
           <div>
-            <Image alt="image" src={savingImgFive} />
+            <Image alt="image" src={SavingimgFive} />
           </div>
         </Flex>
         <div className="lg:mt-[100px] mt-8">
-          <Image alt="image" src={savingImgSix} />
+          <Image alt="image" src={SavingimgSix} />
         </div>
       </Container>
     </section>
