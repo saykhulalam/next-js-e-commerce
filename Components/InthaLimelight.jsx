@@ -6,8 +6,7 @@ import limelightImageTow from "../public/assets/LimelightImageTow.png";
 import limelightImageThree from "../public/assets/LimelightImageThree.png";
 import limelightImageFour from "../public/assets/LimelightImageFour.png";
 import Flex from "./Flex";
-import LimelightCollct from "./LimelightCollct";
-
+import LimelightCollct from "../Components/LimelightCollct.jsx";
 
 const InthaLimelight = () => {
   return (
@@ -42,7 +41,7 @@ const InthaLimelight = () => {
         </Flex>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default InthaLimelight
+export default InthaLimelight;
