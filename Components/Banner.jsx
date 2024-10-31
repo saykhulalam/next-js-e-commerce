@@ -10,7 +10,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import { GrPrevious } from "react-icons/gr";
 import { GrNext } from "react-icons/gr";
-import MainLoading from "./MainLoding";
 
 const Banner = () => {
   function SampleNextArrow(props) {

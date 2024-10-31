@@ -17,25 +17,25 @@ const BigSavingZone = () => {
         <Title Name="Big Saving Zone" />
         <Flex className=" justify-between mt-[70px] sm:flex-row lg:flex-row flex-col gap-3">
           <div>
-            <Image src={savingImgOne} />
+            <Image alt="image" src={savingImgOne} />
           </div>
           <div>
-            <Image src={savingImgTow} />
+            <Image alt="image" src={savingImgTow} />
           </div>
           <div>
-            <Image src={savingImgThree} />
+            <Image alt="image" src={savingImgThree} />
           </div>
         </Flex>
         <Flex className=" gap-4 mt-[15px] lg:flex-row flex-col gap-3 sm:flex-row">
           <div>
-            <Image src={savingImgFour} />
+            <Image alt="image" src={savingImgFour} />
           </div>
           <div>
-            <Image src={savingImgFive} />
+            <Image alt="image" src={savingImgFive} />
           </div>
         </Flex>
         <div className="lg:mt-[100px] mt-8">
-          <Image src={savingImgSix} />
+          <Image alt="image" src={savingImgSix} />
         </div>
       </Container>
     </section>

@@ -104,6 +104,10 @@ const ProductDetails = () => {
             Black colored Design</h2>
             <div className="">
             <Rate allowHalf defaultValue={3.5} />
+            <div className="">
+              <h5 className=" font-causten font-medium text-[#807D7E]">3.5</h5>
+              <h5 className=" font-causten font-medium text-[#807D7E]">120 comment</h5>
+            </div>
             </div>
           </div>
         </Flex>

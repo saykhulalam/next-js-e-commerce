@@ -7,7 +7,7 @@ const LimelightCollection = ({ ImageUrl, Name, BrandName, Prize }) => {
   return (
     <div className="w-[282px] mb-[50px]">
       <div className=" relative">
-        <Image src={ImageUrl} />
+        <Image alt="image" src={ImageUrl} />
         <div className="w-[32px] h-[32px] bg-white rounded-full flex items-center justify-center absolute right-3 top-5">
           <FaRegHeart className="text-[15px] text-common-black" />
         </div>

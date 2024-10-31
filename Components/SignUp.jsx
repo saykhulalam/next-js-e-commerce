@@ -11,7 +11,7 @@ import { IoEyeSharp } from "react-icons/io5";
 import Link from "next/link";
 import { useState } from "react";
 
-const signUp = () => {
+const SignUp = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -129,4 +129,4 @@ const signUp = () => {
   );
 };
 
-export default signUp;
+export default SignUp;
