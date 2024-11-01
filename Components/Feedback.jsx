@@ -8,7 +8,7 @@ import FeedbackImgTow from "../public/assets/feedbbackImageTow.png";
 import FeedbackImgThree from "../public/assets/feedbbackImageThree.png";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
-import "../app/feedback.css";
+import "../app/style/feedback.css";
 
 const Feedback = () => {
   const settings = {

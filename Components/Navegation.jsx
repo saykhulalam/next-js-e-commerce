@@ -5,7 +5,6 @@ import Flex from "./Flex";
 import NaveListItem from "./NaveListItem";
 import { ImMenu } from "react-icons/im";
 import NaveSarch from "./NaveSarch";
-
 import Link from "next/link";
 import NaveIcon from "./naveIcon";
 

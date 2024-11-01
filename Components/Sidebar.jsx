@@ -10,7 +10,6 @@ import ColorPalet from "./ColorPalet";
 import Flex from "./Flex";
 
 const Sidebar = () => {
-  
   let [fillterShow, setFillterShow] = useState(true);
   let [priceShow, setPriceShow] = useState(true);
   let [colorShow, setColorShow] = useState(true);
