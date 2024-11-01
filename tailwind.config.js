@@ -12,11 +12,6 @@ module.exports = {
       maxWidth: {
         container: "1237px",
       },
-      fontFamily: {
-        custom: ['MyCustomFont', 'sans-serif'],
-        coresance: ['coresance', 'sans-serif'],
-        causten: ['causten', 'sans-serif'],
-      },
       colors: {
         "common-black": "#3C4242",
         "footer-whait": "#F6F6F6",

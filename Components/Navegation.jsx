@@ -7,6 +7,8 @@ import { ImMenu } from "react-icons/im";
 import NaveSarch from "./NaveSarch";
 import Link from "next/link";
 import NaveIcon from "./naveIcon";
+import Image from "next/image";
+import Logo from "../public/assets/Logo.png";
 
 const Navegation = () => {
   let [manuShow, setManuShow] = useState(true);
@@ -19,10 +21,7 @@ const Navegation = () => {
         <Flex className="flex xl:flex-row xl:items-center  justify-between items-center">
           <Link href="/">
             <div className="">
-              <h1 className="text-black font-custom text-[34px]">Euphoria</h1>
-              <p className="text-[#3C4242] font-custom tracking-[2px] text-[10px] pl-8 mt-[-18px]">
-                keep it classy
-              </p>
+              <Image width={80} src={Logo} />
             </div>
           </Link>
           <div
