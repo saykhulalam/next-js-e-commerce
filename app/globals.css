@@ -26,7 +26,68 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/fonts/Mintaka.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "coresance";
+  src: url("/fonts/coresance.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "coresance";
+  src: url("/fonts/Fontspring-DEMO-coresansc45.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "coresance";
+  src: url("/fonts/Fontspring-DEMO-coresansc55.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "coresance";
+  src: url("/fonts/Fontspring-DEMO-coresansc65.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "causten";
+  src: url("/fonts/Causten-Black.otf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "causten";
+  src: url("/fonts/Causten-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "causten";
+  src: url("/fonts/Causten-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "causten";
+  src: url("/fonts/Causten-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 .slick-dots .slick-active {
   background: white !important;
   border-radius: 20px;
