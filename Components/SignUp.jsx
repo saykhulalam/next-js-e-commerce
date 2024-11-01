@@ -119,7 +119,7 @@ const SignUp = () => {
                 className="text-[18px] font-causten text-common-black font-normal underline block mt-[10px]"
                 href="#"
               >
-                Already have an account? Log in
+                Already have an account? Log in.
               </Link>
             </div>
           </div>
